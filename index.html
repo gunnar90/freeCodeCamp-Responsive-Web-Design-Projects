@@ -7,14 +7,20 @@
       a {
         color: red;
       }
-      div {
+      #test-id {
+        background-color: orange;
+      }
+      #exec-bio {
+        background-color: lightgray;
+      }
+      .test {
+        background-color: azure;
+      }
+      .bio-box {
         border: 1px solid black;
       }
-      div a {
+      .bio-box a {
         color: green;
-      }
-      li a {
-        color: blue; border: 1px solid black;
       }
     </style>
   </head>
@@ -32,16 +38,16 @@
       </li>
     </ul>
     <h2>I'm an h2</h2>
-    <div>
+    <div id="exec-bio" class="bio-box test">
       <a href="http://example.com/">I'm a link</a>
     </div>
-    <div>
+    <div id="test-id" class="bio-box test">
       <a href="http://example.com/">I'm a link</a>
     </div>
-    <div>
+    <div class="bio-box test">
       <a href="http://example.com/">I'm a link</a>
     </div>
-    <div>
+    <div class="bio-box test">
       <a href="http://example.com/">I'm a link</a>
     </div>
   </body>
