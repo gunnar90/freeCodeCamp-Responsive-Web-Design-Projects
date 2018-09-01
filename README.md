@@ -1,4 +1,4 @@
 # freeCodeCamp-Responsive-Web-Design-Projects
 
-Check out the project at:
+Check out the first project at:
 https://codepen.io/gunnar90/pen/wEJoxW
